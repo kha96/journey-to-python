@@ -19,7 +19,7 @@
 ### +, -, /, *
 
 def add(a: int, b: int) -> int:
-    return a + b
+    return a + b 
 
 def subtract(a: int, b: int) -> int:
     return a - b
@@ -37,6 +37,9 @@ def divide(a: int, b: int) -> int:
 # print(multiply(9, 1000000))
 # print(divide(4, 2))
 # print(divide(4, 3))
+
+# Type casting -> a process of converting a variable of type A into type B 
+# for example a: float = 1.01, to type cast to int we can define b: int = int(a)
 
 print("Welcome to Asiya's Calculator!\n")
 
